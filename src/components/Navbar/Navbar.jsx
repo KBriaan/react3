@@ -1,6 +1,7 @@
 
 import { IoMdSearch } from "react-icons/io";
 import Logo from "../../assets/logo.png";
+import { FaCartShopping } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
@@ -26,11 +27,12 @@ const Navbar = () => {
           </div>
         </div>
         <button
-          onClick={() => alert('Ordering not available yet')}
+          onClick={() => alert('Sijatengeneza backend ya hii . tulia!')}
           className="bg-gradient-to-r from-primary to-secondary transition-all duration-300 text-white py-1 px-4 rounded-full flex items-center gap-3 group"
           aria-label="Order"
         >
           <span>Order</span>
+          <FaCartShopping />
         </button>
       </div>
       {/* lower navbar */}
